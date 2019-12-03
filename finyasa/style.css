@@ -17,7 +17,7 @@
 body {
     color: #555;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     position: relative;
     height: 100vh;
     font-weight: 400;
@@ -41,15 +41,15 @@ body {
 
 .budget {
     position: absolute;
-    width: 350px;
-    top: 33%;
+    width: 400px;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgba(255, 255, 255, 0.8);
 }
 
 .budget__title {
-    font-size: 25px;
+    font-size: 29px;
     text-align: center;
     font-weight: 300;
 }
@@ -63,7 +63,7 @@ body {
 
 .budget__income,
 .budget__expenses {
-    padding: 10px;
+    padding: 9px;
     text-transform: uppercase;
 }
 
@@ -96,7 +96,7 @@ body {
 .budget__expenses--percentage {
     float: left;
     width: 36px;
-    font-size: 12px;
+    font-size: 14px;
     padding: 3px 0;
     margin-left: 15px;
 }
@@ -104,7 +104,7 @@ body {
 .budget__expenses--percentage {
     background-color: rgba(255, 255, 255, 0.2);
     text-align: center;
-    border-radius: 3px;
+    border-radius: 15px;
 }
 
 
@@ -226,7 +226,7 @@ h2 {
     font-size: 11px;
     background-color: #FFDAD9;
     padding: 3px;
-    border-radius: 3px;
+    border-radius: 15px;
     width: 32px;
     text-align: center;
 }
